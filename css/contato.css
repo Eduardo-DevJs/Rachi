@@ -1,0 +1,44 @@
+#contato{
+  background: url(../img/unsplash_psGV5KhidlY.png);
+  padding: 40px 20px;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-contato{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.color {
+  color: #f2f2f2;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.form input {
+  color: #f2f2f2;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 1.3rem;
+  padding: 8px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.form button {
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+  color: #f2f2f2;
+  background: #0f9afe;
+  border-radius: 50px;
+}

@@ -1,0 +1,75 @@
+#planos{
+  padding: 50px 20px;
+}
+
+.section-planos {
+  margin-top: 40px;
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.paragrafo-section {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: rgba(110, 114, 117, 1);
+  line-height: 1.4;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 40px;
+  gap: 20px;
+  align-items: center;
+}
+
+.bronze,
+.ouro {
+  background: #eff8ff;
+}
+
+.prata {
+  background: #293145;
+  color: #f2f2f2;
+}
+
+.bronze h3,
+.ouro h3 {
+  font-size: 1.5rem;
+}
+
+.prata h3 {
+  background: #293145;
+  font-size: 2rem;
+  color: #f2f2f2;
+}
+
+.prata .info-card{
+  color: rgba(219, 219, 219, 1);
+}
+
+
+.info-card {
+  text-align: center;
+  color: rgba(110, 114, 117, 1);
+}
+
+.link-card {
+  margin-top: 15px;
+  background: rgba(15, 154, 254, 1);
+  color: #f2f2f2;
+  padding: 5px 40px;
+  border-radius: 4px;
+}
+
+@media(max-width: 768px){
+  .section-planos {
+    grid-template-columns: 1fr;
+  }
+}
+
